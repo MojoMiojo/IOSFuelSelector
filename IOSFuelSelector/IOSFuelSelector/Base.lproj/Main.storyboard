@@ -25,18 +25,18 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ex: 1.99" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="dM9-QN-CtA" userLabel="alcoolField">
-                                <rect key="frame" x="20" y="212" width="88" height="34"/>
+                                <rect key="frame" x="20" y="212" width="112" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Preço álcool" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bRS-pe-QlO">
-                                <rect key="frame" x="20" y="180" width="118" height="24"/>
+                                <rect key="frame" x="20" y="180" width="112" height="24"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ex: 2.99" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="3ft-Dl-AOU" userLabel="gasField">
-                                <rect key="frame" x="308" y="212" width="86" height="34"/>
+                                <rect key="frame" x="282" y="212" width="112" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad" enablesReturnKeyAutomatically="YES"/>
                             </textField>
@@ -74,18 +74,17 @@
                             <constraint firstItem="kKn-te-1qQ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="bRS-pe-QlO" secondAttribute="trailing" constant="8" symbolic="YES" id="6ej-zt-dwA"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kKn-te-1qQ" secondAttribute="trailing" constant="23" id="7vH-Uj-3Az"/>
                             <constraint firstItem="2zs-kW-gYu" firstAttribute="top" secondItem="dM9-QN-CtA" secondAttribute="bottom" constant="46" id="8Po-6u-XoB"/>
-                            <constraint firstItem="3ft-Dl-AOU" firstAttribute="width" secondItem="kKn-te-1qQ" secondAttribute="width" multiplier="0.646617" id="AAS-Ab-es7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3ft-Dl-AOU" secondAttribute="trailing" constant="20" id="CvC-XZ-cBz"/>
+                            <constraint firstItem="3ft-Dl-AOU" firstAttribute="width" secondItem="dM9-QN-CtA" secondAttribute="width" id="F0t-L0-Ctf"/>
                             <constraint firstItem="vOL-jW-Mn8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Ffq-k6-xQL"/>
                             <constraint firstItem="bRS-pe-QlO" firstAttribute="top" secondItem="vOL-jW-Mn8" secondAttribute="bottom" constant="30" id="L25-0q-8La"/>
                             <constraint firstItem="2zs-kW-gYu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LOF-g9-6jI"/>
                             <constraint firstItem="dM9-QN-CtA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="XNT-qD-kb2"/>
                             <constraint firstItem="dM9-QN-CtA" firstAttribute="top" secondItem="bRS-pe-QlO" secondAttribute="bottom" constant="8" symbolic="YES" id="XpH-X6-0fo"/>
-                            <constraint firstItem="3ft-Dl-AOU" firstAttribute="leading" secondItem="dM9-QN-CtA" secondAttribute="trailing" constant="200" id="jCh-mb-lzW"/>
                             <constraint firstItem="bRS-pe-QlO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jZD-T2-1oD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lpD-Fm-kHw" secondAttribute="trailing" constant="20" id="oA8-YI-MqM"/>
                             <constraint firstItem="lpD-Fm-kHw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="oZW-xx-ByC"/>
-                            <constraint firstItem="dM9-QN-CtA" firstAttribute="width" secondItem="bRS-pe-QlO" secondAttribute="width" multiplier="0.745536" id="ojT-ai-1QX"/>
+                            <constraint firstItem="dM9-QN-CtA" firstAttribute="width" secondItem="bRS-pe-QlO" secondAttribute="width" multiplier="0.745536" constant="28.5" id="ojT-ai-1QX"/>
                             <constraint firstItem="vOL-jW-Mn8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="pdf-bc-enc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vOL-jW-Mn8" secondAttribute="trailing" constant="20" id="r9c-q3-aHu"/>
                             <constraint firstItem="kKn-te-1qQ" firstAttribute="top" secondItem="vOL-jW-Mn8" secondAttribute="bottom" constant="30" id="uYg-Z7-JtW"/>
