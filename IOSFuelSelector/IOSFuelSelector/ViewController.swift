@@ -51,9 +51,9 @@ class ViewController: UIViewController {
         } else {
             
             if alcoolValue/gasValue >= 0.7 {
-                resultLabel.text = "Melhor utilizar alcool!"
-            } else {
                 resultLabel.text = "Melhor utilizar gasolina!"
+            } else {
+                resultLabel.text = "Melhor utilizar alcool!"
             }
             
             dismissKeyboard()
